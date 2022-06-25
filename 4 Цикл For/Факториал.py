@@ -1,8 +1,7 @@
-a = int(input())
-b = int(input())
-if a < b:
-    for i in range(a, b + 1):
-        print(i)
-else:
-    for i in range(a, b - 1, -1):
-        print(i)
+n = int(input())
+f = 1
+
+for i in range(1, n + 1):
+    f *= i
+
+print(f)
